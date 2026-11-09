@@ -33,7 +33,12 @@ build/
 .vscode/
 
 ### PNG ###
+# Do not ignore project documentation images in docs/
 *.png
+!docs/*.png
 
 ### MD ###
+# Do not ignore README.md and documentation markdown files
 *.md
+!README.md
+!docs/*.md
